@@ -8,7 +8,7 @@ let cached = null;
 export function loadScenarios() {
   if (cached) return cached;
 
-  const filePath = path.join(process.cwd(), "data", "Leadership_Chatbot_DataSource_v3.csv");
+  const filePath = path.join(process.cwd(), "data", "Leadership_Chatbot_DataSource_v4.csv");
   const csvText = fs.readFileSync(filePath, "utf8");
 
   const records = parse(csvText, {
