@@ -54,7 +54,7 @@ return (
   >
     <div style={{ maxWidth: 700, margin: "0 auto" }}>
       <h1 style={{ fontSize: 28, marginBottom: 8 }}>
-        Leadership Roleplay Coach
+        Leadership AI Coach
       </h1>
       <p style={{ color: "#374151", marginBottom: 24 }}>
         Describe a leadership situation and get strategy + language guidance.
